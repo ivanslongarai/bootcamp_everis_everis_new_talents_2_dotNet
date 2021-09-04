@@ -1,0 +1,17 @@
+D:\DIO\BOOTCAMP EVERIS\bootcamp_everis_everis_new_talents_2_dotNet\StarShipsSoluctionManagement\AccessControl\bin\Debug\net5.0-windows\AccessControl.exe
+D:\DIO\BOOTCAMP EVERIS\bootcamp_everis_everis_new_talents_2_dotNet\StarShipsSoluctionManagement\AccessControl\bin\Debug\net5.0-windows\AccessControl.deps.json
+D:\DIO\BOOTCAMP EVERIS\bootcamp_everis_everis_new_talents_2_dotNet\StarShipsSoluctionManagement\AccessControl\bin\Debug\net5.0-windows\AccessControl.runtimeconfig.json
+D:\DIO\BOOTCAMP EVERIS\bootcamp_everis_everis_new_talents_2_dotNet\StarShipsSoluctionManagement\AccessControl\bin\Debug\net5.0-windows\AccessControl.runtimeconfig.dev.json
+D:\DIO\BOOTCAMP EVERIS\bootcamp_everis_everis_new_talents_2_dotNet\StarShipsSoluctionManagement\AccessControl\bin\Debug\net5.0-windows\AccessControl.dll
+D:\DIO\BOOTCAMP EVERIS\bootcamp_everis_everis_new_talents_2_dotNet\StarShipsSoluctionManagement\AccessControl\bin\Debug\net5.0-windows\ref\AccessControl.dll
+D:\DIO\BOOTCAMP EVERIS\bootcamp_everis_everis_new_talents_2_dotNet\StarShipsSoluctionManagement\AccessControl\bin\Debug\net5.0-windows\AccessControl.pdb
+D:\DIO\BOOTCAMP EVERIS\bootcamp_everis_everis_new_talents_2_dotNet\StarShipsSoluctionManagement\AccessControl\obj\Debug\net5.0-windows\AccessControl.frmMain.resources
+D:\DIO\BOOTCAMP EVERIS\bootcamp_everis_everis_new_talents_2_dotNet\StarShipsSoluctionManagement\AccessControl\obj\Debug\net5.0-windows\AccessControl.csproj.GenerateResource.cache
+D:\DIO\BOOTCAMP EVERIS\bootcamp_everis_everis_new_talents_2_dotNet\StarShipsSoluctionManagement\AccessControl\obj\Debug\net5.0-windows\AccessControl.GeneratedMSBuildEditorConfig.editorconfig
+D:\DIO\BOOTCAMP EVERIS\bootcamp_everis_everis_new_talents_2_dotNet\StarShipsSoluctionManagement\AccessControl\obj\Debug\net5.0-windows\AccessControl.AssemblyInfoInputs.cache
+D:\DIO\BOOTCAMP EVERIS\bootcamp_everis_everis_new_talents_2_dotNet\StarShipsSoluctionManagement\AccessControl\obj\Debug\net5.0-windows\AccessControl.AssemblyInfo.cs
+D:\DIO\BOOTCAMP EVERIS\bootcamp_everis_everis_new_talents_2_dotNet\StarShipsSoluctionManagement\AccessControl\obj\Debug\net5.0-windows\AccessControl.csproj.CoreCompileInputs.cache
+D:\DIO\BOOTCAMP EVERIS\bootcamp_everis_everis_new_talents_2_dotNet\StarShipsSoluctionManagement\AccessControl\obj\Debug\net5.0-windows\AccessControl.dll
+D:\DIO\BOOTCAMP EVERIS\bootcamp_everis_everis_new_talents_2_dotNet\StarShipsSoluctionManagement\AccessControl\obj\Debug\net5.0-windows\ref\AccessControl.dll
+D:\DIO\BOOTCAMP EVERIS\bootcamp_everis_everis_new_talents_2_dotNet\StarShipsSoluctionManagement\AccessControl\obj\Debug\net5.0-windows\AccessControl.pdb
+D:\DIO\BOOTCAMP EVERIS\bootcamp_everis_everis_new_talents_2_dotNet\StarShipsSoluctionManagement\AccessControl\obj\Debug\net5.0-windows\AccessControl.genruntimeconfig.cache

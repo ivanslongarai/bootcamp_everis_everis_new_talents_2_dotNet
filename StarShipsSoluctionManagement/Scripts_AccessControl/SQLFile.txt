@@ -1,0 +1,89 @@
+USE DeathStar
+GO
+
+--****** Planets **********************************************************************************************
+CREATE TABLE Planets(
+	Id int NOT NULL,
+	Name varchar(50) NOT NULL,
+	Rotation_Period float NOT NULL,
+	Orbital_Period float NOT NULL,
+	Diameter float NOT NULL,
+	Climate varchar(50) NOT NULL,
+	Population int NOT NULL,
+)
+GO
+
+ALTER TABLE Planets ADD CONSTRAINT PK_Planets PRIMARY KEY (Id);
+GO
+
+--****** Starships *********************************************************************************************
+CREATE TABLE Starships(
+	Id int NOT NULL,
+	Name varchar(100) NOT NULL,
+	Model varchar(150) NOT NULL,
+	Passengers int NOT NULL,
+	Cargo_Capacity float NOT NULL,
+	Starship_Class varchar(100) NOT NULL,
+)
+GO
+ALTER TABLE Starships ADD CONSTRAINT PK_Starships PRIMARY KEY (Id);
+GO
+
+--****** Pilots *************************************************************************************************
+CREATE TABLE Pilots(
+	Id int NOT NULL,
+	Name varchar(200) NOT NULL,
+	Birth_Year varchar(10) NOT NULL,
+	IdPlanet int NOT NULL,
+)
+GO
+
+ALTER TABLE Pilots ADD CONSTRAINT PK_Pilots PRIMARY KEY (Id);
+GO
+
+ALTER TABLE Pilots  ADD  CONSTRAINT FK_Pilots_Planets FOREIGN KEY(IdPlanet)
+REFERENCES Planets (Id)
+GO
+
+ALTER TABLE Pilots CHECK CONSTRAINT FK_Pilots_Planets
+GO
+
+--****** PilotsStarships ****************************************************************************************
+CREATE TABLE PilotsStarships(
+	IdPilot int NOT NULL,
+	IdStarship int NOT NULL,
+	FlagAuthorized bit NOT NULL,
+)
+GO
+
+ALTER TABLE PilotsStarships ADD CONSTRAINT PK_PilotsStarships PRIMARY KEY (IdPilot, IdStarship);
+GO
+
+ALTER TABLE PilotsStarships  ADD CONSTRAINT FK_PilotsStarships_Pilots FOREIGN KEY(IdPilot)
+REFERENCES Pilots (Id)
+GO
+
+ALTER TABLE PilotsStarships  ADD CONSTRAINT FK_PilotsStarships_Starships FOREIGN KEY(IdStarship)
+REFERENCES Starships (Id)
+GO
+
+ALTER TABLE PilotsStarships  ADD CONSTRAINT DF_PilotsStarships_FlagAuthorized  DEFAULT (1) FOR FlagAuthorized
+GO
+
+--****** TravelsLogs ************************************************************************************
+CREATE TABLE TravelsLogs(
+	IdStarship int NOT NULL,
+	IdPilot int NOT NULL,
+	DepartureDate datetime NOT NULL,
+	ArriveDate datetime NULL
+)
+GO
+
+ALTER TABLE TravelsLogs ADD  CONSTRAINT FK_TravelsLogs_PilotsStarships FOREIGN KEY(IdPilot, IdStarship)
+REFERENCES PilotsStarships (IdPilot, IdStarship)
+GO
+
+ALTER TABLE TravelsLogs CHECK CONSTRAINT FK_TravelsLogs_PilotsStarships
+GO
+
+--****************************************************************************************************************
