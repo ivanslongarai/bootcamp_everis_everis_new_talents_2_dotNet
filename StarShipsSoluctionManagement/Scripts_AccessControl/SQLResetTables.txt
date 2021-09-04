@@ -1,0 +1,5 @@
+delete from TravelsLogs;
+delete from PilotsStarships;
+delete from Pilots;
+delete from Starships;
+delete from Planets;

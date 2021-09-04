@@ -1,0 +1,5 @@
+select * from TravelsLogs;
+select * from PilotsStarships;
+select * from Pilots;
+select * from Starships;
+select * from Planets;

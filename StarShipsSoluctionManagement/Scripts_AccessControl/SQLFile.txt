@@ -1,3 +1,6 @@
+/* Create a database with this name: DeathStar and then... Run the script below */
+/* SQLSERVER */
+
 USE DeathStar
 GO
 
@@ -9,7 +12,7 @@ CREATE TABLE Planets(
 	Orbital_Period float NOT NULL,
 	Diameter float NOT NULL,
 	Climate varchar(50) NOT NULL,
-	Population int NOT NULL,
+	Population bigint NOT NULL,
 )
 GO
 
@@ -33,7 +36,7 @@ GO
 CREATE TABLE Pilots(
 	Id int NOT NULL,
 	Name varchar(200) NOT NULL,
-	Birth_Year varchar(10) NOT NULL,
+	Birth_Year varchar(30) NOT NULL,
 	IdPlanet int NOT NULL,
 )
 GO
